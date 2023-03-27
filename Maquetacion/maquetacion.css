@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.container {
+    width: 965px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.banner {
+    width: 1000px;
+    display: flex;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-left: 520px;
+}
+
+.lista a {
+    text-decoration: none;
+    padding: 10;
+}
+
+h1 {
+    text-align: center;
+}
+
+.containermid {
+    display: flex;
+}

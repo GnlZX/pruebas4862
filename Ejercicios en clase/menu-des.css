@@ -1,0 +1,80 @@
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    width: 100;
+    background-color: red;
+
+    font-size: 1.6rem;
+    border: 3px solid black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    display: block;
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    background-color: blue;
+    transition: 0.2s;
+    color: white
+}
+
+.haschildren a::after {
+    content: "g";
+    font-family: flecha;
+}
+
+@font-face {
+    font-family: flecha;
+    src: url(../Fuentes/Arrows_tfb.ttf);
+}
+
+.sublista {
+    display: block;
+    padding: 0;
+    position: absolute;
+}
+
+.sublista li a {
+    width: 100;
+    background-color: black;
+    color: white;
+    margin: 1;
+    font-size: 1.6rem;
+    border: 3px solid blue;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.sublista li a:hover {
+    background-color: rgb(0, 119, 119);
+    transition: 0.2s;
+    color: white
+}
+
+.haschildren ul {
+    opacity: 0;
+    overflow: hidden;
+    max-height: 0px;
+    transition: 0.5s;
+}
+
+.haschildren:hover ul {
+    opacity: 1;
+    max-height: 300px;
+    transition: 0.5s;
+}
+
+.haschildren:hover a {
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}

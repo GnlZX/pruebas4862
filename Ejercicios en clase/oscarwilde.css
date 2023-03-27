@@ -1,0 +1,26 @@
+body {
+    background-color: #FDDBBD;
+}
+
+.cubos {
+    border: 2px dashed black;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: #F2D0AB;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+}
+
+.span {
+    font-size: 2rem;
+}
+
+.title {
+    text-align: center;
+    margin: auto;
+}

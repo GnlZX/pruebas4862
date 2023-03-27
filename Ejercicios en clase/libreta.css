@@ -1,0 +1,13 @@
+body {
+    background-image: url(./Fotos/fondo.png);
+    background-repeat: repeat-y;
+    height: 1500px;
+    width: 700px;
+
+}
+
+.parr {
+    margin-left: 100;
+    margin-right: 50;
+    font-size: 2rem;
+}

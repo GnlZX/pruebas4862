@@ -1,0 +1,46 @@
+.titulo {
+    text-align: center;
+    color: white
+}
+
+.texto2 {
+
+    border: solid green 2px;
+    background-color: purple;
+    margin-left: auto;
+
+}
+
+.texto3 {
+
+    border: dotted blue 2px;
+    background-color: red;
+    margin: auto;
+
+}
+
+.texto {
+
+    border: solid gold 2px;
+    background-color: aqua;
+    margin-right: auto;
+
+}
+
+.texto1 {
+
+    border: solid hotpink 2px;
+    background-color: khaki;
+    margin: auto;
+
+}
+
+div p {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5;
+}
+
+body {
+    background-color: black;
+}

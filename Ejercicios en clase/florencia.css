@@ -1,0 +1,63 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    margin: auto;
+    width: 1200;
+    box-sizing: border-box;
+
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 4rem;
+
+}
+
+.parr {
+    font-size: 2.1rem;
+
+}
+
+.subt {
+    font-size: 3rem;
+    background-color: cyan;
+}
+
+
+
+.stma {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imgder {
+    float: right;
+    margin: 10px;
+}
+
+.container1 {
+    margin: auto;
+    width: 1200;
+}
+
+.container2 {
+    margin: auto;
+    width: 1200;
+    margin-bottom: 115;
+
+}
+
+.imgizq {
+    float: left;
+    margin-right: 15;
+}
+
+.imgcen {
+    display: block;
+    margin: auto;
+}

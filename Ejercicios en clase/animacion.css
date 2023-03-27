@@ -1,0 +1,23 @@
+li {
+    display: inline;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-color: green;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.7rem;
+    background: url(../Fotos/indiana.png), linear-gradient(90deg, rgba(9, 0, 171, 1) 0%, rgba(0, 0, 255, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 4px 4px 10px black;
+    color: white;
+    margin-right: 15px;
+}
+
+li:hover {
+    background-position: center;
+    transition: 2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

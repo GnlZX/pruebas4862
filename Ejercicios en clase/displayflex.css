@@ -1,0 +1,14 @@
+div {
+    background-image: url(./Fotos/bg-2.jpg);
+    width: 750px;
+    height: 570px;
+    margin: auto;
+    display: flex;
+}
+
+.texto {
+    padding-left: 12;
+    padding-right: 12;
+    padding-top: 12;
+
+}

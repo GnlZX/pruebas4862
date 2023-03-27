@@ -1,0 +1,17 @@
+div {
+    width: 250;
+    height: 250;
+    background-color: red;
+    text-align: center;
+    transition: 2s;
+}
+
+div:hover {
+    width: 1000;
+    height: 1000;
+    font-size: 40rem;
+    background-color: purple;
+    transition: font-size 7s, width 8s, height 8s, color 2s;
+    text-align: center;
+    color: yellow;
+}

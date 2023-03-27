@@ -1,0 +1,41 @@
+body {
+    margin: auto
+}
+
+.titulo {
+    text-align: center;
+    font-size: 4em;
+    border-bottom: white solid 5px;
+    margin: 10px;
+}
+
+.fecha {
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    width: 100px;
+    color: red;
+
+}
+
+body {
+    background-color: teal;
+}
+
+.contenedor {
+    width: 800px;
+    margin: auto;
+}
+
+.letragrande {
+    font-size: 2em;
+    color: yellow;
+}
+
+.subr {
+    border-bottom: red solid 2px;
+}
+
+.color {
+    color: pink;
+}

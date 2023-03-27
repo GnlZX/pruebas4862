@@ -1,0 +1,9 @@
+div {
+    background: url(./Fotos/mundo.svg), url(./Fotos/tijeras.svg), radial-gradient(ellipse at center, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    background-size: 50% 50%, auto auto, 100%;
+    background-position: 0 0, bottom right;
+    background-repeat: repeat, no-repeat;
+
+    height: 400px;
+    width: 400px;
+}

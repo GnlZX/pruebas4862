@@ -1,0 +1,19 @@
+div {
+    margin: auto 500 500
+}
+
+.subrcolor {
+    border-bottom: 1px solid green;
+    color: purple;
+}
+
+.letragrande {
+    font-size: 5em;
+    background-color: yellow;
+
+}
+
+.colorgrande {
+    color: aqua;
+    font-size: 2em
+}

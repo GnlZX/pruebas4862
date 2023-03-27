@@ -1,0 +1,7 @@
+.container {
+    background-image: url(./Fotos/html-left.png), url(./Fotos/html-right.png);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}

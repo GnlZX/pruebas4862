@@ -1,0 +1,15 @@
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 300;
+    text-shadow: 300px 50px 2px blue, 300px -50px 2px red, -300px 50px 2px green, -300px -50px 2px orange;
+    transition: 7s;
+}
+
+h1:hover {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 300;
+    text-shadow: -300px 50px 2px palevioletred, -300px -50px 2px yellow, 300px -50px 2px cyan, 300px 50px 2px purple;
+    transition: 7s;
+}

@@ -1,0 +1,20 @@
+.container {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+
+}
+
+.foto {
+    width: 150px;
+}
+
+.ulist {
+    border-top: 1px red solid;
+    padding-top: 10;
+}
+
+.texto {
+    border-left: 1px red solid;
+    padding-left: 10px;
+}

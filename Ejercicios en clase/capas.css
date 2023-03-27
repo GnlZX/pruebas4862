@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(196, 196, 196);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    background-color: bisque;
+    padding-bottom: 20;
+    padding-top: 20;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.box {
+    width: 50%;
+    height: 220px;
+    background-color: red;
+    border: 2px solid black;
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+    margin: 0;
+    position: absolute;
+    top: 186px;
+    left: 0;
+}
+
+.box2 {
+    width: 50%;
+    height: 220px;
+    background-color: rgb(93, 244, 255);
+    border: 2px solid black;
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+    position: absolute;
+    top: 186;
+    right: 0;
+}
+
+.box3 {
+    width: 50%;
+    height: 220px;
+    background-color: greenyellow;
+    z-index: 1;
+    border: 2px solid black;
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+    position: absolute;
+    right: 500;
+    top: 300;
+}
+
+.box4 {
+    width: 50%;
+    height: 220px;
+    background-color: rgb(180, 0, 180);
+    border: 2px solid black;
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+    position: absolute;
+    top: 409;
+    right: 0;
+}
+
+.box5 {
+    width: 50%;
+    height: 220px;
+    background-color: brown;
+    border: 2px solid black;
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+    position: absolute;
+    top: 409;
+    left: 0;
+}
+
+.box:hover {
+    position: absolute;
+    z-index: 1;
+}
+
+.box2:hover {
+    position: absolute;
+    z-index: 1;
+}
+
+.box3:hover {
+    position: absolute;
+    z-index: 1;
+}
+
+.box4:hover {
+    position: absolute;
+    z-index: 1;
+}
+
+.box5:hover {
+    position: absolute;
+    z-index: 1;
+}
